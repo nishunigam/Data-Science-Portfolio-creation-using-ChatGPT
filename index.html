@@ -141,31 +141,39 @@
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="py-5 text-white" style="background-color: #222;">
-        <div class="container text-center">
-            <h2>Contact Me</h2>
-            <p>Email: nishchalanigam6291@gmail.com | Phone: +919721760902</p>
-            <div class="row justify-content-center">
-                <div class="col-auto d-flex gap-3">
-                    <a href="https://www.linkedin.com/in/nishchalanigam" class="btn btn-outline-light rounded-circle">
-                        <img src="icons/linkedin.jpg" alt="LinkedIn" style="width: 40px;">
-                    </a>
-                    <a href="https://x.com/Nishchala17" class="btn btn-outline-light rounded-circle">
-                        <img src="icons/twitter.jpg" alt="Twitter" style="width: 40px;">
-                    </a>
-                    <a href="https://github.com/nishunigam" class="btn btn-outline-light rounded-circle">
-                        <img src="icons/github.jpg" alt="GitHub" style="width: 40px;">
-                    </a>
-                    <a href="#" class="btn btn-outline-light rounded-circle" data-bs-toggle="tooltip" title="Medium">
-                    <img src="icons/medium.jpg" alt="Medium" style="width: 40px;">
+<section id="contact" class="py-3 text-white" style="background-color: #222;">
+    <div class="container text-center">
+        <div class="row justify-content-center align-items-center">
+            <!-- Mail Icon -->
+            <div class="col-auto">
+                <a href="mailto:nishchalanigam6291@gmail.com" class="btn btn-outline-light rounded-circle">
+                    <img src="icons/email.jpg" alt="Email" style="width: 40px; height: 40px;">
+                </a>
+            </div>
+
+            <!-- Social Media Icons -->
+            <div class="col-auto d-flex gap-3">
+                <a href="https://www.linkedin.com/in/nishchalanigam" class="btn btn-outline-light rounded-circle">
+                    <img src="icons/linkedin.jpg" alt="LinkedIn" style="width: 40px; height: 40px;">
+                </a>
+                <a href="https://x.com/Nishchala17" class="btn btn-outline-light rounded-circle">
+                    <img src="icons/x.jpg" alt="x" style="width: 40px; height: 40px;">
+                </a>
+                <a href="https://github.com/nishunigam" class="btn btn-outline-light rounded-circle">
+                    <img src="icons/github.jpg" alt="GitHub" style="width: 40px; height: 40px;">
+                </a>
+                <a href="#" class="btn btn-outline-light rounded-circle" data-bs-toggle="tooltip" title="Medium">
+                    <img src="icons/medium.jpg" alt="Medium" style="width: 40px; height: 40px;">
                 </a>
                 <a href="#" class="btn btn-outline-light rounded-circle" data-bs-toggle="tooltip" title="Kaggle">
-                    <img src="icons/kaggle.jpg" alt="Kaggle" style="width: 40px;">
+                    <img src="icons/kaggle.jpg" alt="Kaggle" style="width: 40px; height: 40px;">
                 </a>
-                </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
+
+
 
     <!-- Smooth Scroll Script -->
     <script>
@@ -193,4 +201,28 @@
 
 
 </body>
+<style>
+#contact {
+    background-color: #222; /* Dark background */
+    padding: 20px 0; /* Vertical padding */
+}
+
+#contact .btn {
+    border-radius: 50%; /* Rounded icons */
+    background-color: transparent;
+    padding: 8px; /* Padding to make the button larger */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); /* Slight shadow for the plate effect */
+    transition: transform 0.2s ease-in-out; /* Smooth hover transition */
+}
+
+#contact .btn:hover {
+    transform: scale(1.1); /* Slightly enlarge the icon on hover */
+}
+
+#contact .btn img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover; /* Ensures the image is properly contained within the circle */
+}
+</style>
 </html>
